@@ -1,0 +1,35 @@
+/* Base styles for the block */
+.content {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Styles for the paragraph element */
+.content__paragraph {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Modifier: Highlighted paragraph */
+.content__paragraph--highlighted {
+    background-color: #ffeeba;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+/* Modifier: Primary paragraph */
+.content__paragraph--primary {
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+/* Modifier: Secondary paragraph */
+.content__paragraph--secondary {
+    background-color: #e2e3e5;
+    color: #383d41;
+    border: 1px solid #d6d8db;
+}

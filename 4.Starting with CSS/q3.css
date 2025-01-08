@@ -1,0 +1,94 @@
+/* Custom Color Palette */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --background-color: #f0f0f0;
+    --input-background: #ffffff;
+    --button-color: #ff5722;
+    --text-color: #333333;
+    --opaque-color: rgba(255, 235, 59, 0.5); /* Yellow with opacity */
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 20px;
+    padding: 0;
+}
+
+/* Form Styling */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: var(--input-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+.form__section {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.form__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs and Textareas */
+.form__input, .form__textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: var(--input-background);
+    transition: border-color 0.3s ease;
+}
+
+.form__input:focus, .form__textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* Buttons */
+.form__button {
+    background: var(--button-color);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.form__button:hover {
+    background: darken(var(--button-color), 10%);
+}
+
+/* Section Modifiers */
+.form__section--primary {
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.form__section--secondary {
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.form__section--opaque {
+    background: var(--opaque-color);
+    padding: 10px;
+    border-radius: 4px;
+}

@@ -1,0 +1,62 @@
+/* Custom Color Palette */
+:root {
+    --navbar-bg: #333333;
+    --navbar-link-color: #ffffff;
+    --navbar-hover-color: #ff5722;
+    --navbar-padding: 15px;
+}
+
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: var(--navbar-bg);
+    padding: var(--navbar-padding);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar List Styling */
+.navbar__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Evenly spaces items within the navbar */
+    align-items: center;
+}
+
+/* Navbar Item Styling */
+.navbar__item {
+    margin: 0;
+}
+
+/* Navbar Link Styling */
+.navbar__link {
+    text-decoration: none;
+    color: var(--navbar-link-color);
+    padding: 10px 20px; /* Adds padding using the box model */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover Effect for Links */
+.navbar__link:hover {
+    color: var(--navbar-hover-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar__list {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar__link {
+        display: block;
+        padding: 10px 0;
+    }
+}

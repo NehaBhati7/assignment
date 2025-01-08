@@ -1,0 +1,8 @@
+
+.external-style {
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 20px;
+    margin: 10px;
+    border: 2px dashed green;
+}

@@ -1,0 +1,56 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header Styling */
+.header-bar {
+    height: 20px;
+    background-color: #1d3b8d;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #1d3b8d;
+}
+
+/* About Section */
+.about-section {
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1d3b8d;
+}
+
+.about-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.about-section .content img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

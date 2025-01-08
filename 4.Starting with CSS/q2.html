@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM CSS Example</title>
+    <link rel="stylesheet" href="q2.css">
+</head>
+<body>
+    <h1>BEM Naming Convention Example</h1>
+    <div class="content">
+        <p class="content__paragraph content__paragraph--highlighted">
+            This is the first paragraph with a highlighted style.<br>
+            Block:<br>
+            The block is the main component or container.<br>
+            Example:<br>
+            content represents the main section containing the paragraphs.<br>
+
+        </p>
+        <p class="content__paragraph content__paragraph--primary">
+            This is the second paragraph with a primary style.<br>
+            Element:<br>
+            The element is a part of the block.<br>
+            Example:<br>
+            content__paragraph represents the paragraphs within the content block.<br>
+        </p>
+        <p class="content__paragraph content__paragraph--secondary">
+            This is the third paragraph with a secondary style.<br>
+            Modifier:<br>
+            A modifier defines a specific state or variation of an element.<br>
+            Examples:<br>
+            content__paragraph--highlighted applies a "highlighted" style.<br>
+            content__paragraph--primary applies a "primary" style.<br>
+            content__paragraph--secondary applies a "secondary" style.<br>
+
+        </p>
+    </div>
+</body>
+</html>

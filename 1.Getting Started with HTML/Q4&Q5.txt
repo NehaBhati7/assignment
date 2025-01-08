@@ -1,0 +1,20 @@
+Q4. Write a short note on Tag and Element with an example.
+
+Ans- ~Tag: A tag is a part of HTML code used to define the start and end of an element. Tags are enclosed in angle brackets(<>).They can be opening tags(e.g., <p>) or closing tags (e.g., </p>). Tags specify the type of content and structure of the document.
+      Example:
+      <p>This is a paragraph.</p>
+
+     ~Element: An element in HTML is the combination of an opening tag, content (optional), and a closing tag. It is the basic building block of an HTML document. An element can also be empty, meaning it has no content and may not have a closing tag (e.g., <br>).
+      Example:
+      <img src="image.jpg" alt="Description of the image">
+
+
+
+Q5. What is the DOCTYPE declaration in HTML?
+
+Ans- The DOCTYPE declaration is an instruction at the very beginning of an HTML document that tells the web browser which version of HTML the page is written in. It ensures that the browser renders the page correctly by using the proper HTML standards.
+     <!DOCTYPE html>
+     
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video and Audio Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    video, audio {
+      margin: 20px 0;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    video {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Video and Audio Playback</h1>
+
+  <!-- Video Element -->
+  <h2>Video Example</h2>
+  <video controls width="640">
+    <source src="example-video.mp4" type="video/mp4">
+    <source src="example-video.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Audio Element -->
+  <h2>Audio Example</h2>
+  <audio controls>
+    <source src="example-audio.mp3" type="audio/mpeg">
+    <source src="example-audio.ogg" type="audio/ogg">
+    Your browser does not support the audio tag.
+  </audio>
+</body>
+</html>

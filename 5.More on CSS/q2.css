@@ -1,0 +1,36 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Card Container */
+.card {
+    background-color: #ffc107; /* Yellow background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px; /* Fixed width for the card */
+}
+
+/* Card Image */
+.card__image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Card Text */
+.card__text {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
