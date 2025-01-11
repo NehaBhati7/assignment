@@ -1,0 +1,40 @@
+Q5. Explain the z-index, with code example.
+
+ANS- The z-index property specifies the stack order of an element.
+     An element with greater stack order is always in front of an element with a lower stack order.
+     Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+     Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. 
+
+     Code Example:
+     
+.wrapper {
+  position: relative;
+}
+
+.box1 {
+  position: relative;
+  z-index: 1;
+  border: solid;
+  height: 100px;
+  margin: 50px;
+}
+
+.box2 {
+  position: absolute;
+  z-index: 2;
+  background: pink;
+  width: 20%;
+  left: 65%;
+  top: -25px;
+  height: 120px;
+  opacity: 0.9;
+}
+
+.box3 {
+  position: absolute;
+  z-index: 3;
+  background: cyan;
+  width: 70%;
+  left: 40px;
+  top: 60px;
+}

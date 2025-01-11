@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Sticky Header Styling */
+    .header {
+      position: sticky;
+      top: 0;
+      background-color: #3a3a3a; /* Dark background */
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 1000; /* Ensures it stays above content */
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 10px;
+      transition: background 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #555; /* Darker hover background */
+      border-radius: 5px;
+    }
+
+    .button {
+      padding: 5px 15px;
+      background-color: gold; /* Gold button background */
+      color: #3a3a3a; /* Dark text */
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #f0c000; /* Slightly darker gold on hover */
+    }
+
+    /* Content Styling */
+    .content {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sticky Header -->
+  <div class="header">
+    <div class="logo">LOGO</div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+      <a href="#">Terms and Conditions</a>
+    </nav>
+    <a href="#" class="button">Get Started</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2>Heading 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni delectus eum provident minima...</p>
+    <h2>Heading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni delectus eum provident minima...</p>
+    <h2>Heading 3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni delectus eum provident minima...</p>
+  </div>
+</body>
+</html>

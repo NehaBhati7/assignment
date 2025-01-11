@@ -1,0 +1,60 @@
+Q1. Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+
+ANS- Flexbox (Flexible Box Layout)
+     Key Characteristics:
+
+     1.One-dimensional layout:
+       Flexbox is designed to lay out items in a single dimension—either a row (horizontal) or a column (vertical).
+       Items are aligned along a main axis and a cross axis.
+
+     2.Content-driven layout:
+       Flexbox adjusts the size and position of items based on the available space and their content.
+
+     3.Alignment and spacing:
+       Flexbox excels at distributing space between items and aligning them within a container.
+
+     4.Responsive design:
+       Flexbox is great for components or layouts that need to adapt to varying content sizes dynamically.
+
+       When to use Flexbox:
+       -For simple, linear layouts (e.g., navigation bars, buttons in a toolbar, or forms).
+       -When the layout involves a single row or column of elements.
+       -When you need content to align or distribute dynamically based on available space.
+
+
+     
+     Grid (CSS Grid Layout)
+     Key Characteristics:
+
+     1.Two-dimensional layout:
+       CSS Grid allows you to work in both rows and columns, making it suitable for more complex layouts.
+
+     2.Layout-driven design:
+       The layout can be defined explicitly with rows and columns, even without considering the content size.
+
+     3.Precise control:
+       Grid offers more granular control over placement with features like grid lines, areas, and template definitions.
+
+     4.Explicit structure:
+       You can define a layout with rows, columns, and gaps, creating a structured, modular design.
+
+       When to use Grid:
+
+       -For complex, structured layouts (e.g., web pages, dashboards, or multi-column/multi-row designs).
+       -When you need to define both rows and columns explicitly.
+       -When you want a layout to remain consistent regardless of content size.
+
+
+
+      Choosing Between Flexbox and Grid
+      Use Flexbox when:
+
+      -You need to arrange items in a single row or column.
+      -The layout depends on content size.
+      -The design requires flexible alignment and spacing adjustments.
+
+      Use Grid when:
+
+      -You need a structured layout involving multiple rows and columns.
+      -You require precise control over element placement.
+      -The layout should remain consistent across different screen sizes.
