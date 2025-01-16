@@ -1,0 +1,85 @@
+Justify-items:
+1. Aligns all grid items along the inline (horizontal) axis within their grid cell.
+2. It is applied to the grid container.
+
+example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justify Items Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(2, 100px);
+      gap: 10px;
+      justify-items: center; 
+      background-color: lightgray;
+    }
+    .grid-item {
+      background: lightblue;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+  </div>
+</body>
+</html>
+
+
+Justify-self:
+1.Aligns a specific grid item along the inline (horizontal) axis within its grid cell.
+2.It is applied to the individual grid item.
+
+example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justify Self Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(2, 100px);
+      gap: 10px;
+      background-color: lightgray;
+    }
+    .grid-item {
+      background: lightcoral;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+    }
+    .grid-item:nth-child(1) {
+      justify-self: start; 
+    }
+    .grid-item:nth-child(2) {
+      justify-self: center; 
+    }
+    .grid-item:nth-child(3) {
+      justify-self: end;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div> <!-- This item will use the default alignment -->
+  </div>
+</body>
+</html>
+

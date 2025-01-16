@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: lightgray;
+      text-align: center;
+      padding: 20px;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: lightgray;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        background-color: blue;
+        color: white;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Responsive Header
+  </header>
+  <main>
+    <p>Main Content</p>
+  </main>
+  <footer>
+    Footer
+  </footer>
+</body>
+</html>

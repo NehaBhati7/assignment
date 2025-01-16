@@ -1,0 +1,10 @@
+Concept of Hooks in React
+Hooks are a feature introduced in React 16.8 that allow developers to use state and other React features in functional components. Prior to hooks, functional components were stateless and couldn’t manage state or lifecycle methods like class components. With hooks, developers can write more concise, maintainable, and reusable code.
+
+Types of Hooks
+React provides several built-in hooks:
+1.useState: Manages state in functional components.
+2.useEffect: Handles side effects (similar to lifecycle methods in class components).
+3.useContext: Manages context.
+4.useReducer: Handles complex state logic.
+5.useRef: Provides access to DOM elements or creates mutable objects.

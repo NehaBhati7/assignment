@@ -1,0 +1,44 @@
+1 ANS- The DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a webpage as a tree of objects, where each node corresponds to an element, attribute, or piece of content in the HTML or XML document.
+
+       Roles of the DOM in Web Development:
+       1.Accessing Elements: Allows developers to locate and retrieve specific elements from the webpage (e.g., getElementById, querySelector).
+
+       2.Manipulating Content: Enables updating, deleting, or adding new content dynamically (e.g., changing text or adding elements).
+
+       3.Handling Styles: Lets developers modify the appearance of elements via JavaScript (e.g., updating style properties).
+
+       4.Responding to Events: Facilitates interaction by enabling event handling for clicks, keypresses, etc. (e.g., addEventListener).
+
+       5.Dynamic Behavior: Powers dynamic features like animations, content updates, and form validation.
+
+       6.Creating/Removing Elements: Allows developers to create, insert, or delete elements on the fly (e.g., createElement, appendChild).
+
+       7.Interaction with Forms: Supports reading and manipulating user input or form data.
+
+       8.Hierarchical Structure: Represents the document as a tree structure, enabling easy navigation and manipulation of elements and their relationships.
+
+
+2 ANS- Event delegation is a technique in JavaScript where you take advantage of event bubbling to handle events for multiple child elements by attaching a single event listener to a parent element. The event listener monitors events that occur on the child elements and responds accordingly.
+
+       Scenario Where Event Delegation is Beneficial:
+       Scenario: Dynamic List Items
+       You have a list of items, and users can dynamically add new items. Clicking on any item should log its text to the console.
+
+       If you add individual event listeners to each list item, you must also manually add a listener every time a new item is created. Instead, you can use event delegation.
+
+3 ANS- Event bubbling is a concept in the DOM event model where an event that occurs on a specific element is first handled by that element and then "bubbles up" to its ancestors, one level at a time, until it reaches the root of the document (usually the document object).
+
+       This means that if you click on an element, such as a <button>, the event will be triggered not only on the <button> but also on its parent elements in the DOM tree, in order.
+
+4 ANS- Purpose of the addEventListener Method:
+       The addEventListener method in JavaScript is used to attach event handlers to DOM elements. It provides a flexible and powerful way to listen for and respond to events such as clicks, mouse movements, key presses, or form submissions.
+
+       How addEventListener Facilitates Event Handling:
+       1. Attaches Multiple Event Handlers to an Element
+       2. Supports Different Event Types
+       3. Event Propagation Control
+       4. Dynamic and Flexible
+       5. Removes Event Listeners
+       6. Pass Additional Options
+
+ 
